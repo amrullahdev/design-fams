@@ -21,16 +21,10 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @include('inc.index1.style')
+    @include('inc.index3')
 </head>
 <style>
-    .text-blue{
-        color: #70C1B3;
-    }
 
-
-    .bg-blue{
-        background: #B2DBBF;
-    }
 </style>
 <body>
     <div id="app">
@@ -38,5 +32,6 @@
             @yield('content')
         </main>
     </div>
+
 </body>
 </html>

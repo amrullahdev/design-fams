@@ -18,6 +18,7 @@ Route::get('/', function () {
 
 Route::get('/','halamanController@index1')->name('index1');
 Route::get('/2','halamanController@index2')->name('index2');
+Route::get('/3','halamanController@index3')->name('index3');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

@@ -80,6 +80,16 @@
               transition: 1.8s;
               animation-delay: 0.4s;
         }
+
+        /*index 2*/
+            .text-blue{
+                color: #70C1B3;
+            }
+
+
+            .bg-blue{
+                background: #B2DBBF;
+            }
     </style>
 
     <script>
