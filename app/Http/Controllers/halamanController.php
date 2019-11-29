@@ -38,4 +38,15 @@ class halamanController extends Controller
     {
         return view('halaman.index3');
     }
+
+    /**
+     * undocumented function
+     *
+     * @return void
+     * @author 
+     **/
+    public function index4()
+    {
+        return view('halaman.index4');
+    }
 }
